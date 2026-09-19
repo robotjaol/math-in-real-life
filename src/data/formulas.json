@@ -1,0 +1,915 @@
+[
+  {
+    "level": 1,
+    "topic": "Addition & subtraction",
+    "expression": "sisa = tersedia − digunakan",
+    "exampleId": "L001-Q01",
+    "units": [
+      "item"
+    ]
+  },
+  {
+    "level": 2,
+    "topic": "Multiplication",
+    "expression": "total = output per siklus × jumlah siklus",
+    "exampleId": "L002-Q01",
+    "units": [
+      "point"
+    ]
+  },
+  {
+    "level": 3,
+    "topic": "Division",
+    "expression": "bagian = total / jumlah penerima",
+    "exampleId": "L003-Q01",
+    "units": [
+      "pallet/penerima"
+    ]
+  },
+  {
+    "level": 4,
+    "topic": "Fractions & decimals",
+    "expression": "alokasi = total × pecahan",
+    "exampleId": "L004-Q01",
+    "units": [
+      "lot"
+    ]
+  },
+  {
+    "level": 5,
+    "topic": "Percentage",
+    "expression": "target = baseline × (1 + persentase/100)",
+    "exampleId": "L005-Q01",
+    "units": [
+      "order"
+    ]
+  },
+  {
+    "level": 6,
+    "topic": "Ratio",
+    "expression": "alokasi A = total × a/(a+b)",
+    "exampleId": "L006-Q01",
+    "units": [
+      "IDR"
+    ]
+  },
+  {
+    "level": 7,
+    "topic": "Proportion",
+    "expression": "kebutuhan baru = kebutuhan awal × skala",
+    "exampleId": "L007-Q01",
+    "units": [
+      "hour"
+    ]
+  },
+  {
+    "level": 8,
+    "topic": "Average",
+    "expression": "mean = jumlah nilai / jumlah pengukuran",
+    "exampleId": "L008-Q01",
+    "units": [
+      "case"
+    ]
+  },
+  {
+    "level": 9,
+    "topic": "Unit conversion",
+    "expression": "jam = menit / 60",
+    "exampleId": "L009-Q01",
+    "units": [
+      "jam"
+    ]
+  },
+  {
+    "level": 10,
+    "topic": "Estimation",
+    "expression": "estimasi = round(jumlah/100) × 100",
+    "exampleId": "L010-Q01",
+    "units": [
+      "job"
+    ]
+  },
+  {
+    "level": 11,
+    "topic": "Rates",
+    "expression": "rate = target / (shift − downtime/60)",
+    "exampleId": "L011-Q01",
+    "units": [
+      "IDR/jam"
+    ]
+  },
+  {
+    "level": 12,
+    "topic": "Combined percentage",
+    "expression": "akhir = awal × (1 + naik/100) × (1 − turun/100)",
+    "exampleId": "L012-Q01",
+    "units": [
+      "kWh"
+    ]
+  },
+  {
+    "level": 13,
+    "topic": "Weighted average",
+    "expression": "mean gabungan = (n₁μ₁ + n₂μ₂)/(n₁+n₂)",
+    "exampleId": "L013-Q01",
+    "units": [
+      "tanpa satuan"
+    ]
+  },
+  {
+    "level": 14,
+    "topic": "Ratio + units",
+    "expression": "resource = ratio × demand; kilo-resource = resource/1000",
+    "exampleId": "L014-Q01",
+    "units": [
+      "resource-unit",
+      "kilo-resource-unit"
+    ]
+  },
+  {
+    "level": 15,
+    "topic": "Capacity utilization",
+    "expression": "utilisasi = actual/capacity × 100",
+    "exampleId": "L015-Q01",
+    "units": [
+      "%"
+    ]
+  },
+  {
+    "level": 16,
+    "topic": "Descriptive statistics",
+    "expression": "mean = Σx/n; median = nilai tengah; range = max − min",
+    "exampleId": "L016-Q01",
+    "units": [
+      "tanpa satuan"
+    ]
+  },
+  {
+    "level": 17,
+    "topic": "Basic probability",
+    "expression": "P = kasus memenuhi / seluruh kasus",
+    "exampleId": "L017-Q01",
+    "units": [
+      "rasio"
+    ]
+  },
+  {
+    "level": 18,
+    "topic": "Algebraic unknown",
+    "expression": "x = (total − intercept)/koefisien",
+    "exampleId": "L018-Q01",
+    "units": [
+      "tanpa satuan"
+    ]
+  },
+  {
+    "level": 19,
+    "topic": "Break-even basic",
+    "expression": "unit minimum = ceil(fixed cost / contribution margin)",
+    "exampleId": "L019-Q01",
+    "units": [
+      "unit"
+    ]
+  },
+  {
+    "level": 20,
+    "topic": "Multi-step quantitative reasoning",
+    "expression": "remaining = target − selesai; capacity = waktu × rate",
+    "exampleId": "L020-Q01",
+    "units": [
+      "unit"
+    ]
+  },
+  {
+    "level": 21,
+    "topic": "Linear equations",
+    "expression": "x = (total − intercept)/koefisien",
+    "exampleId": "L021-Q01",
+    "units": [
+      "tanpa satuan"
+    ]
+  },
+  {
+    "level": 22,
+    "topic": "Systems of equations",
+    "expression": "A+B=N; aA+bB=R",
+    "exampleId": "L022-Q01",
+    "units": [
+      "unit"
+    ]
+  },
+  {
+    "level": 23,
+    "topic": "Inequalities",
+    "expression": "fixed + rate × x ≤ capacity; x bilangan bulat ≥ 0",
+    "exampleId": "L023-Q01",
+    "units": [
+      "unit"
+    ]
+  },
+  {
+    "level": 24,
+    "topic": "Functions",
+    "expression": "f(x) = ax + b",
+    "exampleId": "L024-Q01",
+    "units": [
+      "tanpa satuan"
+    ]
+  },
+  {
+    "level": 25,
+    "topic": "Model formulation",
+    "expression": "kapasitas usable = capacity × (1 − reserve); margin = usable − demand",
+    "exampleId": "L025-Q01",
+    "units": [
+      "order"
+    ]
+  },
+  {
+    "level": 26,
+    "topic": "Piecewise logic",
+    "expression": "C(x) = 2 min(x,100) + 1.5 min(max(x−100,0),150) + 1.2 max(x−250,0)",
+    "exampleId": "L026-Q01",
+    "units": [
+      "cost-unit"
+    ]
+  },
+  {
+    "level": 27,
+    "topic": "Sequences",
+    "expression": "aₖ = a₁+(k−1)d; Sₖ=k(a₁+aₖ)/2",
+    "exampleId": "L027-Q01",
+    "units": [
+      "hour"
+    ]
+  },
+  {
+    "level": 28,
+    "topic": "Geometry",
+    "expression": "A=p×l; V=A×h; net=V(1−clearance)",
+    "exampleId": "L028-Q01",
+    "units": [
+      "m²",
+      "m³"
+    ]
+  },
+  {
+    "level": 29,
+    "topic": "Coordinate geometry",
+    "expression": "d = √((x₂−x₁)²+(y₂−y₁)²); midpoint=(P₁+P₂)/2",
+    "exampleId": "L029-Q01",
+    "units": [
+      "km"
+    ]
+  },
+  {
+    "level": 30,
+    "topic": "Trigonometry",
+    "expression": "h = d tan(θ)",
+    "exampleId": "L030-Q01",
+    "units": [
+      "m"
+    ]
+  },
+  {
+    "level": 31,
+    "topic": "Counting & combinatorics",
+    "expression": "C(n,k)=n!/(k!(n−k)!)",
+    "exampleId": "L031-Q01",
+    "units": [
+      "tim"
+    ]
+  },
+  {
+    "level": 32,
+    "topic": "Conditional probability",
+    "expression": "P(B|A)=P(A∩B)/P(A)",
+    "exampleId": "L032-Q01",
+    "units": [
+      "rasio"
+    ]
+  },
+  {
+    "level": 33,
+    "topic": "Discrete distributions",
+    "expression": "P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ",
+    "exampleId": "L033-Q01",
+    "units": [
+      "rasio"
+    ]
+  },
+  {
+    "level": 34,
+    "topic": "Continuous distributions",
+    "expression": "z=(threshold−μ)/σ; P(X≤threshold)=Φ(z)",
+    "exampleId": "L034-Q01",
+    "units": [
+      "tanpa satuan",
+      "rasio"
+    ]
+  },
+  {
+    "level": 35,
+    "topic": "Sampling",
+    "expression": "simple random sample tanpa pengembalian",
+    "exampleId": "L035-Q01",
+    "units": [
+      "rasio"
+    ]
+  },
+  {
+    "level": 36,
+    "topic": "Confidence intervals",
+    "expression": "CI = mean ± 1.96 × SE",
+    "exampleId": "L036-Q01",
+    "units": [
+      "tanpa satuan"
+    ]
+  },
+  {
+    "level": 37,
+    "topic": "Hypothesis testing",
+    "expression": "z = (mean−μ₀)/SE",
+    "exampleId": "L037-Q01",
+    "units": [
+      "tanpa satuan"
+    ]
+  },
+  {
+    "level": 38,
+    "topic": "Correlation",
+    "expression": "r mengukur arah dan kekuatan hubungan linear",
+    "exampleId": "L038-Q01",
+    "units": [
+      "rasio"
+    ]
+  },
+  {
+    "level": 39,
+    "topic": "Simple regression",
+    "expression": "ŷ = intercept + slope × x",
+    "exampleId": "L039-Q01",
+    "units": [
+      "tanpa satuan"
+    ]
+  },
+  {
+    "level": 40,
+    "topic": "Statistical decision",
+    "expression": "expected loss = probability × loss",
+    "exampleId": "L040-Q01",
+    "units": [
+      "cost-unit"
+    ]
+  },
+  {
+    "level": 41,
+    "topic": "Multiple regression reasoning",
+    "expression": "ŷ=b₀+b₁x₁+b₂x₂",
+    "exampleId": "L041-Q01",
+    "units": [
+      "tanpa satuan"
+    ]
+  },
+  {
+    "level": 42,
+    "topic": "Time series basics",
+    "expression": "forecast berikut = mean tiga observasi terakhir (contoh metode)",
+    "exampleId": "L042-Q01",
+    "units": [
+      "tanpa satuan"
+    ]
+  },
+  {
+    "level": 43,
+    "topic": "Forecast error",
+    "expression": "MAE = Σ|actual−forecast|/n",
+    "exampleId": "L043-Q01",
+    "units": [
+      "tanpa satuan"
+    ]
+  },
+  {
+    "level": 44,
+    "topic": "Financial mathematics",
+    "expression": "FV = P(1+r)ᵗ",
+    "exampleId": "L044-Q01",
+    "units": [
+      "monetary-unit"
+    ]
+  },
+  {
+    "level": 45,
+    "topic": "Cash-flow modeling",
+    "expression": "NPV = Σ CFₜ/(1+r)ᵗ",
+    "exampleId": "L045-Q01",
+    "units": [
+      "monetary-unit"
+    ]
+  },
+  {
+    "level": 46,
+    "topic": "Risk-adjusted alternatives",
+    "expression": "EV = Σ pᵢ × outcomeᵢ",
+    "exampleId": "L046-Q01",
+    "units": [
+      "tanpa satuan"
+    ]
+  },
+  {
+    "level": 47,
+    "topic": "Sensitivity basics",
+    "expression": "Δy = a Δx; dy/dx=a",
+    "exampleId": "L047-Q01",
+    "units": [
+      "tanpa satuan"
+    ]
+  },
+  {
+    "level": 48,
+    "topic": "Scenario analysis",
+    "expression": "scenario demand = base × multiplier",
+    "exampleId": "L048-Q01",
+    "units": [
+      "unit"
+    ]
+  },
+  {
+    "level": 49,
+    "topic": "Multi-criteria quantitative decision",
+    "expression": "score = Σ weightᵢ × normalized scoreᵢ",
+    "exampleId": "L049-Q01",
+    "units": [
+      "tanpa satuan"
+    ]
+  },
+  {
+    "level": 50,
+    "topic": "Integrated statistical optimization",
+    "expression": "shortage = max(0, demand−capacity); biaya total = biaya capacity + penalti shortage",
+    "exampleId": "L050-Q01",
+    "units": [
+      "unit"
+    ]
+  },
+  {
+    "level": 51,
+    "topic": "Matrices",
+    "expression": "A = [d c]; margin = c−d",
+    "exampleId": "L051-Q01",
+    "units": [
+      "IDR"
+    ]
+  },
+  {
+    "level": 52,
+    "topic": "Matrix operations",
+    "expression": "margin = c−d; biaya = kᵀd",
+    "exampleId": "L052-Q01",
+    "units": [
+      "kWh"
+    ]
+  },
+  {
+    "level": 53,
+    "topic": "Vectors",
+    "expression": "vektor margin m=c−d; ||m||₂",
+    "exampleId": "L053-Q01",
+    "units": [
+      "trip"
+    ]
+  },
+  {
+    "level": 54,
+    "topic": "Vector components",
+    "expression": "komponen margin mᵢ=cᵢ−dᵢ",
+    "exampleId": "L054-Q01",
+    "units": [
+      "people"
+    ]
+  },
+  {
+    "level": 55,
+    "topic": "Combinatorial optimization framing",
+    "expression": "min Σkᵢcᵢzᵢ; Σcᵢzᵢ≥Σdᵢ; zᵢ∈{0,1}",
+    "exampleId": "L055-Q01",
+    "units": [
+      "observation"
+    ]
+  },
+  {
+    "level": 56,
+    "topic": "Linear programming",
+    "expression": "min kᵀx; Σxᵢ≥Σdᵢ; 0≤xᵢ≤cᵢ",
+    "exampleId": "L056-Q01",
+    "units": [
+      "unit"
+    ]
+  },
+  {
+    "level": 57,
+    "topic": "LP with multiple constraints",
+    "expression": "min kᵀx; dᵢ≤xᵢ≤cᵢ",
+    "exampleId": "L057-Q01",
+    "units": [
+      "task"
+    ]
+  },
+  {
+    "level": 58,
+    "topic": "Transportation model",
+    "expression": "min Σkᵢxᵢⱼ; Σⱼxᵢⱼ≤cᵢ; Σᵢxᵢⱼ=dⱼ",
+    "exampleId": "L058-Q01",
+    "units": [
+      "unit"
+    ]
+  },
+  {
+    "level": 59,
+    "topic": "Assignment model",
+    "expression": "min Σkᵢdⱼzᵢⱼ; Σᵢzᵢⱼ=Σⱼzᵢⱼ=1; dⱼzᵢⱼ≤cᵢ",
+    "exampleId": "L059-Q01",
+    "units": [
+      "point"
+    ]
+  },
+  {
+    "level": 60,
+    "topic": "Optimization interpretation",
+    "expression": "bandingkan objective dan slack setiap constraint",
+    "exampleId": "L060-Q01",
+    "units": [
+      "unit"
+    ]
+  },
+  {
+    "level": 61,
+    "topic": "Graph theory",
+    "expression": "G=(V,E), adjacency matrix, reachability",
+    "exampleId": "L061-Q01",
+    "units": [
+      "cost-unit"
+    ]
+  },
+  {
+    "level": 62,
+    "topic": "Shortest path",
+    "expression": "d(v)=min[d(u)+w(u,v)]",
+    "exampleId": "L062-Q01",
+    "units": [
+      "cost-unit"
+    ]
+  },
+  {
+    "level": 63,
+    "topic": "Network flow",
+    "expression": "maksimalkan flow; konservasi node; 0≤fₑ≤cₑ",
+    "exampleId": "L063-Q01",
+    "units": [
+      "flow-unit"
+    ]
+  },
+  {
+    "level": 64,
+    "topic": "Critical path",
+    "expression": "ES(v)=max[ES(u)+durasi(u,v)]",
+    "exampleId": "L064-Q01",
+    "units": [
+      "time-unit"
+    ]
+  },
+  {
+    "level": 65,
+    "topic": "Resource-constrained scheduling",
+    "expression": "precedence + resource constraints; earliest feasible start",
+    "exampleId": "L065-Q01",
+    "units": [
+      "time-unit"
+    ]
+  },
+  {
+    "level": 66,
+    "topic": "Inventory models",
+    "expression": "ROP = demand rate × lead time + safety stock",
+    "exampleId": "L066-Q01",
+    "units": [
+      "cost-unit"
+    ]
+  },
+  {
+    "level": 67,
+    "topic": "Queueing intuition",
+    "expression": "ρ=λ/μ; W=1/(μ−λ) untuk M/M/1",
+    "exampleId": "L067-Q01",
+    "units": [
+      "cost-unit"
+    ]
+  },
+  {
+    "level": 68,
+    "topic": "Reliability models",
+    "expression": "R_series=∏Rᵢ; R_parallel=1−∏(1−Rᵢ)",
+    "exampleId": "L068-Q01",
+    "units": [
+      "cost-unit"
+    ]
+  },
+  {
+    "level": 69,
+    "topic": "Monte Carlo basics",
+    "expression": "sampling seeded → network metric → distribusi output",
+    "exampleId": "L069-Q01",
+    "units": [
+      "cost-unit"
+    ]
+  },
+  {
+    "level": 70,
+    "topic": "Operations research integration",
+    "expression": "network representation + feasible allocation + sensitivity",
+    "exampleId": "L070-Q01",
+    "units": [
+      "cost-unit"
+    ]
+  },
+  {
+    "level": 71,
+    "topic": "Derivative as rate of change",
+    "expression": "f(x)=-0.5x²+20x+200; f′(x)=-1x+20",
+    "exampleId": "L071-Q01",
+    "units": [
+      "output-unit",
+      "output-unit/input-unit"
+    ]
+  },
+  {
+    "level": 72,
+    "topic": "Optimization with derivatives",
+    "expression": "f(x)=-1.5x²+30x+200; f′(x)=-3x+30",
+    "exampleId": "L072-Q01",
+    "units": [
+      "output-unit",
+      "output-unit/input-unit"
+    ]
+  },
+  {
+    "level": 73,
+    "topic": "Marginal analysis",
+    "expression": "f(x)=-1x²+20x+200; f′(x)=-2x+20",
+    "exampleId": "L073-Q01",
+    "units": [
+      "output-unit",
+      "output-unit/input-unit"
+    ]
+  },
+  {
+    "level": 74,
+    "topic": "Integral as accumulation",
+    "expression": "f(x)=-0.5x²+20x+100; f′(x)=-1x+20",
+    "exampleId": "L074-Q01",
+    "units": [
+      "output-unit",
+      "output-unit × input-unit"
+    ]
+  },
+  {
+    "level": 75,
+    "topic": "Calculus + decision",
+    "expression": "f(x)=-0.5x²+10x+300; f′(x)=-1x+10",
+    "exampleId": "L075-Q01",
+    "units": [
+      "output-unit",
+      "output-unit/input-unit"
+    ]
+  },
+  {
+    "level": 76,
+    "topic": "Multivariable functions",
+    "expression": "f(x)=-1.5x²+10x+300; f′(x)=-3x+10; g(x,y)=f(x)+2y−y²",
+    "exampleId": "L076-Q01",
+    "units": [
+      "output-unit",
+      "output-unit/input-unit"
+    ]
+  },
+  {
+    "level": 77,
+    "topic": "Partial derivatives",
+    "expression": "f(x)=-0.5x²+20x+300; f′(x)=-1x+20; g(x,y)=f(x)+2y−y²",
+    "exampleId": "L077-Q01",
+    "units": [
+      "output-unit",
+      "output-unit/input-unit"
+    ]
+  },
+  {
+    "level": 78,
+    "topic": "Constrained continuous optimization",
+    "expression": "f(x)=-1.5x²+20x+200; f′(x)=-3x+20; g(x,y)=f(x)+2y−y²",
+    "exampleId": "L078-Q01",
+    "units": [
+      "output-unit",
+      "output-unit/input-unit"
+    ]
+  },
+  {
+    "level": 79,
+    "topic": "Integral probability/continuous model",
+    "expression": "f(x)=-0.5x²+20x+200; f′(x)=-1x+20",
+    "exampleId": "L079-Q01",
+    "units": [
+      "output-unit",
+      "output-unit × input-unit"
+    ]
+  },
+  {
+    "level": 80,
+    "topic": "Calculus synthesis",
+    "expression": "f(x)=-1x²+30x+200; f′(x)=-2x+30",
+    "exampleId": "L080-Q01",
+    "units": [
+      "output-unit",
+      "output-unit × input-unit"
+    ]
+  },
+  {
+    "level": 81,
+    "topic": "Differential equations",
+    "expression": "dx/dt = k(μ−x); Euler xₙ₊₁=xₙ+h k(μ−xₙ)",
+    "exampleId": "L081-Q01",
+    "units": [
+      "state-unit"
+    ]
+  },
+  {
+    "level": 82,
+    "topic": "First-order dynamic systems",
+    "expression": "first-order response x(t)=μ+(x₀−μ)e^(−kt)",
+    "exampleId": "L082-Q01",
+    "units": [
+      "state-unit"
+    ]
+  },
+  {
+    "level": 83,
+    "topic": "Numerical root finding",
+    "expression": "bisection pada f(x)=x−mean(observations)",
+    "exampleId": "L083-Q01",
+    "units": [
+      "state-unit"
+    ]
+  },
+  {
+    "level": 84,
+    "topic": "Numerical integration",
+    "expression": "trapezoid integral = Σ h(yᵢ+yᵢ₊₁)/2",
+    "exampleId": "L084-Q01",
+    "units": [
+      "state-unit × time-unit"
+    ]
+  },
+  {
+    "level": 85,
+    "topic": "Interpolation",
+    "expression": "linear interpolation y(t)=y₀+(y₁−y₀)(t−t₀)/h",
+    "exampleId": "L085-Q01",
+    "units": [
+      "state-unit"
+    ]
+  },
+  {
+    "level": 86,
+    "topic": "Iterative methods",
+    "expression": "xₙ₊₁=xₙ+h(μ−xₙ), stop saat residual≤tolerance",
+    "exampleId": "L086-Q01",
+    "units": [
+      "state-unit"
+    ]
+  },
+  {
+    "level": 87,
+    "topic": "Dynamic simulation",
+    "expression": "state update xₙ₊₁=xₙ+h(μ−xₙ)",
+    "exampleId": "L087-Q01",
+    "units": [
+      "state-unit"
+    ]
+  },
+  {
+    "level": 88,
+    "topic": "Stochastic simulation",
+    "expression": "bootstrap observed increments dengan seed tetap",
+    "exampleId": "L088-Q01",
+    "units": [
+      "state-unit"
+    ]
+  },
+  {
+    "level": 89,
+    "topic": "Model validation",
+    "expression": "MAE = mean |prediction−observation|",
+    "exampleId": "L089-Q01",
+    "units": [
+      "state-unit"
+    ]
+  },
+  {
+    "level": 90,
+    "topic": "Numerical model selection",
+    "expression": "bandingkan holdout MAE dan biaya komputasi",
+    "exampleId": "L090-Q01",
+    "units": [
+      "state-unit"
+    ]
+  },
+  {
+    "level": 91,
+    "topic": "Open-ended model formulation",
+    "expression": "decision variables xᵢ, objective, assumptions dan constraint yang eksplisit",
+    "exampleId": "L091-Q01",
+    "units": [
+      "IDR"
+    ]
+  },
+  {
+    "level": 92,
+    "topic": "Multi-objective optimization",
+    "expression": "min (cost, shortage, risk); Pareto dominance",
+    "exampleId": "L092-Q01",
+    "units": [
+      "kWh"
+    ]
+  },
+  {
+    "level": 93,
+    "topic": "Robust planning",
+    "expression": "Σxᵢ≥D(1+u); 0≤xᵢ≤availability×capacityᵢ",
+    "exampleId": "L093-Q01",
+    "units": [
+      "trip"
+    ]
+  },
+  {
+    "level": 94,
+    "topic": "Advanced sensitivity",
+    "expression": "margin(a,u)=aΣcᵢ−D(1+u)",
+    "exampleId": "L094-Q01",
+    "units": [
+      "people"
+    ]
+  },
+  {
+    "level": 95,
+    "topic": "Uncertainty propagation",
+    "expression": "propagasi interval atau distribusi input ke margin",
+    "exampleId": "L095-Q01",
+    "units": [
+      "observation"
+    ]
+  },
+  {
+    "level": 96,
+    "topic": "Hybrid discrete-continuous model",
+    "expression": "0≤xᵢ≤a cᵢ zᵢ; zᵢ∈{0,1}",
+    "exampleId": "L096-Q01",
+    "units": [
+      "unit"
+    ]
+  },
+  {
+    "level": 97,
+    "topic": "Simulation optimization",
+    "expression": "optimasi keputusan terhadap estimasi output simulasi seeded",
+    "exampleId": "L097-Q01",
+    "units": [
+      "task"
+    ]
+  },
+  {
+    "level": 98,
+    "topic": "Policy scenario modeling",
+    "expression": "skenario koheren (demand, capacity, cost) dan dampak stakeholder",
+    "exampleId": "L098-Q01",
+    "units": [
+      "unit"
+    ]
+  },
+  {
+    "level": 99,
+    "topic": "Integrated mathematical modeling",
+    "expression": "integrasikan model demand, capacity, cost dan uncertainty",
+    "exampleId": "L099-Q01",
+    "units": [
+      "point"
+    ]
+  },
+  {
+    "level": 100,
+    "topic": "Capstone modeling",
+    "expression": "multi-constraint, sensitivity, trade-off dan justifikasi keputusan",
+    "exampleId": "L100-Q01",
+    "units": [
+      "unit"
+    ]
+  }
+]

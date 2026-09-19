@@ -1,0 +1,702 @@
+[
+  {
+    "level": 1,
+    "topic": "Addition & subtraction",
+    "band": "Foundation",
+    "complexity": "1 variabel, 1 operasi, semua data relevan",
+    "count": 50
+  },
+  {
+    "level": 2,
+    "topic": "Multiplication",
+    "band": "Foundation",
+    "complexity": "rate sederhana × quantity",
+    "count": 50
+  },
+  {
+    "level": 3,
+    "topic": "Division",
+    "band": "Foundation",
+    "complexity": "mencari rate/unit cost",
+    "count": 50
+  },
+  {
+    "level": 4,
+    "topic": "Fractions & decimals",
+    "band": "Foundation",
+    "complexity": "representasi kuantitas campuran",
+    "count": 50
+  },
+  {
+    "level": 5,
+    "topic": "Percentage",
+    "band": "Foundation",
+    "complexity": "perubahan dan bagian dari total",
+    "count": 50
+  },
+  {
+    "level": 6,
+    "topic": "Ratio",
+    "band": "Foundation",
+    "complexity": "membandingkan dua kuantitas",
+    "count": 50
+  },
+  {
+    "level": 7,
+    "topic": "Proportion",
+    "band": "Foundation",
+    "complexity": "scale-up/scale-down",
+    "count": 50
+  },
+  {
+    "level": 8,
+    "topic": "Average",
+    "band": "Foundation",
+    "complexity": "mean dari data kecil",
+    "count": 50
+  },
+  {
+    "level": 9,
+    "topic": "Unit conversion",
+    "band": "Foundation",
+    "complexity": "1-2 konversi unit",
+    "count": 50
+  },
+  {
+    "level": 10,
+    "topic": "Estimation",
+    "band": "Foundation",
+    "complexity": "exact vs reasonable estimate",
+    "count": 50
+  },
+  {
+    "level": 11,
+    "topic": "Rates",
+    "band": "Quantitative Literacy",
+    "complexity": "rate × time dengan satu constraint",
+    "count": 50
+  },
+  {
+    "level": 12,
+    "topic": "Combined percentage",
+    "band": "Quantitative Literacy",
+    "complexity": "sequential change",
+    "count": 50
+  },
+  {
+    "level": 13,
+    "topic": "Weighted average",
+    "band": "Quantitative Literacy",
+    "complexity": "bobot berbeda",
+    "count": 50
+  },
+  {
+    "level": 14,
+    "topic": "Ratio + units",
+    "band": "Quantitative Literacy",
+    "complexity": "dua representasi unit",
+    "count": 50
+  },
+  {
+    "level": 15,
+    "topic": "Capacity utilization",
+    "band": "Quantitative Literacy",
+    "complexity": "actual vs capacity",
+    "count": 50
+  },
+  {
+    "level": 16,
+    "topic": "Descriptive statistics",
+    "band": "Quantitative Literacy",
+    "complexity": "mean, median, range selection",
+    "count": 50
+  },
+  {
+    "level": 17,
+    "topic": "Basic probability",
+    "band": "Quantitative Literacy",
+    "complexity": "single-event probability",
+    "count": 50
+  },
+  {
+    "level": 18,
+    "topic": "Algebraic unknown",
+    "band": "Quantitative Literacy",
+    "complexity": "1 linear equation dari konteks",
+    "count": 50
+  },
+  {
+    "level": 19,
+    "topic": "Break-even basic",
+    "band": "Quantitative Literacy",
+    "complexity": "revenue-cost equality",
+    "count": 50
+  },
+  {
+    "level": 20,
+    "topic": "Multi-step quantitative reasoning",
+    "band": "Quantitative Literacy",
+    "complexity": "3-4 langkah, distractor ringan",
+    "count": 50
+  },
+  {
+    "level": 21,
+    "topic": "Linear equations",
+    "band": "Structured Algebra",
+    "complexity": "2 unknown relationships",
+    "count": 50
+  },
+  {
+    "level": 22,
+    "topic": "Systems of equations",
+    "band": "Structured Algebra",
+    "complexity": "2×2 system",
+    "count": 50
+  },
+  {
+    "level": 23,
+    "topic": "Inequalities",
+    "band": "Structured Algebra",
+    "complexity": "minimum/maximum requirement",
+    "count": 50
+  },
+  {
+    "level": 24,
+    "topic": "Functions",
+    "band": "Structured Algebra",
+    "complexity": "input-output relationship",
+    "count": 50
+  },
+  {
+    "level": 25,
+    "topic": "Model formulation",
+    "band": "Structured Algebra",
+    "complexity": "user menentukan variabel dan relevant data",
+    "count": 50
+  },
+  {
+    "level": 26,
+    "topic": "Piecewise logic",
+    "band": "Structured Algebra",
+    "complexity": "aturan berbeda per interval",
+    "count": 50
+  },
+  {
+    "level": 27,
+    "topic": "Sequences",
+    "band": "Structured Algebra",
+    "complexity": "growth pattern",
+    "count": 50
+  },
+  {
+    "level": 28,
+    "topic": "Geometry",
+    "band": "Structured Algebra",
+    "complexity": "area/volume dalam konteks",
+    "count": 50
+  },
+  {
+    "level": 29,
+    "topic": "Coordinate geometry",
+    "band": "Structured Algebra",
+    "complexity": "position/distance",
+    "count": 50
+  },
+  {
+    "level": 30,
+    "topic": "Trigonometry",
+    "band": "Structured Algebra",
+    "complexity": "angle-distance-height",
+    "count": 50
+  },
+  {
+    "level": 31,
+    "topic": "Counting & combinatorics",
+    "band": "Data & Probability",
+    "complexity": "jumlah konfigurasi",
+    "count": 50
+  },
+  {
+    "level": 32,
+    "topic": "Conditional probability",
+    "band": "Data & Probability",
+    "complexity": "dependency event",
+    "count": 50
+  },
+  {
+    "level": 33,
+    "topic": "Discrete distributions",
+    "band": "Data & Probability",
+    "complexity": "binomial-like decisions",
+    "count": 50
+  },
+  {
+    "level": 34,
+    "topic": "Continuous distributions",
+    "band": "Data & Probability",
+    "complexity": "normal distribution interpretation",
+    "count": 50
+  },
+  {
+    "level": 35,
+    "topic": "Sampling",
+    "band": "Data & Probability",
+    "complexity": "sample vs population",
+    "count": 50
+  },
+  {
+    "level": 36,
+    "topic": "Confidence intervals",
+    "band": "Data & Probability",
+    "complexity": "estimate + uncertainty",
+    "count": 50
+  },
+  {
+    "level": 37,
+    "topic": "Hypothesis testing",
+    "band": "Data & Probability",
+    "complexity": "decision under evidence",
+    "count": 50
+  },
+  {
+    "level": 38,
+    "topic": "Correlation",
+    "band": "Data & Probability",
+    "complexity": "association vs causation",
+    "count": 50
+  },
+  {
+    "level": 39,
+    "topic": "Simple regression",
+    "band": "Data & Probability",
+    "complexity": "fit, predict, interpret slope",
+    "count": 50
+  },
+  {
+    "level": 40,
+    "topic": "Statistical decision",
+    "band": "Data & Probability",
+    "complexity": "probability + cost of error",
+    "count": 50
+  },
+  {
+    "level": 41,
+    "topic": "Multiple regression reasoning",
+    "band": "Modeling & Regression",
+    "complexity": "lebih dari satu predictor",
+    "count": 50
+  },
+  {
+    "level": 42,
+    "topic": "Time series basics",
+    "band": "Modeling & Regression",
+    "complexity": "trend, seasonality",
+    "count": 50
+  },
+  {
+    "level": 43,
+    "topic": "Forecast error",
+    "band": "Modeling & Regression",
+    "complexity": "MAE/MAPE comparison",
+    "count": 50
+  },
+  {
+    "level": 44,
+    "topic": "Financial mathematics",
+    "band": "Modeling & Regression",
+    "complexity": "compound growth, discounting",
+    "count": 50
+  },
+  {
+    "level": 45,
+    "topic": "Cash-flow modeling",
+    "band": "Modeling & Regression",
+    "complexity": "multi-period cash flow",
+    "count": 50
+  },
+  {
+    "level": 46,
+    "topic": "Risk-adjusted alternatives",
+    "band": "Modeling & Regression",
+    "complexity": "expected value + downside",
+    "count": 50
+  },
+  {
+    "level": 47,
+    "topic": "Sensitivity basics",
+    "band": "Modeling & Regression",
+    "complexity": "ubah satu parameter",
+    "count": 50
+  },
+  {
+    "level": 48,
+    "topic": "Scenario analysis",
+    "band": "Modeling & Regression",
+    "complexity": "base/upside/downside",
+    "count": 50
+  },
+  {
+    "level": 49,
+    "topic": "Multi-criteria quantitative decision",
+    "band": "Modeling & Regression",
+    "complexity": "normalization + weights",
+    "count": 50
+  },
+  {
+    "level": 50,
+    "topic": "Integrated statistical optimization",
+    "band": "Modeling & Regression",
+    "complexity": "forecast/probability + choice",
+    "count": 50
+  },
+  {
+    "level": 51,
+    "topic": "Matrices",
+    "band": "Optimization Foundations",
+    "complexity": "representasi system data",
+    "count": 50
+  },
+  {
+    "level": 52,
+    "topic": "Matrix operations",
+    "band": "Optimization Foundations",
+    "complexity": "transformasi dan aggregation",
+    "count": 50
+  },
+  {
+    "level": 53,
+    "topic": "Vectors",
+    "band": "Optimization Foundations",
+    "complexity": "magnitude/direction",
+    "count": 50
+  },
+  {
+    "level": 54,
+    "topic": "Vector components",
+    "band": "Optimization Foundations",
+    "complexity": "multi-axis effect",
+    "count": 50
+  },
+  {
+    "level": 55,
+    "topic": "Combinatorial optimization framing",
+    "band": "Optimization Foundations",
+    "complexity": "choose under constraints",
+    "count": 50
+  },
+  {
+    "level": 56,
+    "topic": "Linear programming",
+    "band": "Optimization Foundations",
+    "complexity": "2 variables, feasible region",
+    "count": 50
+  },
+  {
+    "level": 57,
+    "topic": "LP with multiple constraints",
+    "band": "Optimization Foundations",
+    "complexity": "3+ constraints",
+    "count": 50
+  },
+  {
+    "level": 58,
+    "topic": "Transportation model",
+    "band": "Optimization Foundations",
+    "complexity": "supply-demand allocation",
+    "count": 50
+  },
+  {
+    "level": 59,
+    "topic": "Assignment model",
+    "band": "Optimization Foundations",
+    "complexity": "people-task matching",
+    "count": 50
+  },
+  {
+    "level": 60,
+    "topic": "Optimization interpretation",
+    "band": "Optimization Foundations",
+    "complexity": "shadow/trade-off reasoning",
+    "count": 50
+  },
+  {
+    "level": 61,
+    "topic": "Graph theory",
+    "band": "Operations Research",
+    "complexity": "nodes, edges, connectivity",
+    "count": 50
+  },
+  {
+    "level": 62,
+    "topic": "Shortest path",
+    "band": "Operations Research",
+    "complexity": "cost/time route",
+    "count": 50
+  },
+  {
+    "level": 63,
+    "topic": "Network flow",
+    "band": "Operations Research",
+    "complexity": "capacity-limited network",
+    "count": 50
+  },
+  {
+    "level": 64,
+    "topic": "Critical path",
+    "band": "Operations Research",
+    "complexity": "project activity network",
+    "count": 50
+  },
+  {
+    "level": 65,
+    "topic": "Resource-constrained scheduling",
+    "band": "Operations Research",
+    "complexity": "dependencies + capacity",
+    "count": 50
+  },
+  {
+    "level": 66,
+    "topic": "Inventory models",
+    "band": "Operations Research",
+    "complexity": "reorder, holding, shortage trade-off",
+    "count": 50
+  },
+  {
+    "level": 67,
+    "topic": "Queueing intuition",
+    "band": "Operations Research",
+    "complexity": "arrival/service rate",
+    "count": 50
+  },
+  {
+    "level": 68,
+    "topic": "Reliability models",
+    "band": "Operations Research",
+    "complexity": "series/parallel systems",
+    "count": 50
+  },
+  {
+    "level": 69,
+    "topic": "Monte Carlo basics",
+    "band": "Operations Research",
+    "complexity": "simulate uncertain outcomes",
+    "count": 50
+  },
+  {
+    "level": 70,
+    "topic": "Operations research integration",
+    "band": "Operations Research",
+    "complexity": "network + optimization + uncertainty",
+    "count": 50
+  },
+  {
+    "level": 71,
+    "topic": "Derivative as rate of change",
+    "band": "Calculus for Decisions",
+    "complexity": "interpret marginal change",
+    "count": 50
+  },
+  {
+    "level": 72,
+    "topic": "Optimization with derivatives",
+    "band": "Calculus for Decisions",
+    "complexity": "max/min continuous objective",
+    "count": 50
+  },
+  {
+    "level": 73,
+    "topic": "Marginal analysis",
+    "band": "Calculus for Decisions",
+    "complexity": "cost/revenue/energy",
+    "count": 50
+  },
+  {
+    "level": 74,
+    "topic": "Integral as accumulation",
+    "band": "Calculus for Decisions",
+    "complexity": "area/total from rate",
+    "count": 50
+  },
+  {
+    "level": 75,
+    "topic": "Calculus + decision",
+    "band": "Calculus for Decisions",
+    "complexity": "multi-stage model, method selection",
+    "count": 50
+  },
+  {
+    "level": 76,
+    "topic": "Multivariable functions",
+    "band": "Calculus for Decisions",
+    "complexity": "two interacting inputs",
+    "count": 50
+  },
+  {
+    "level": 77,
+    "topic": "Partial derivatives",
+    "band": "Calculus for Decisions",
+    "complexity": "local sensitivity",
+    "count": 50
+  },
+  {
+    "level": 78,
+    "topic": "Constrained continuous optimization",
+    "band": "Calculus for Decisions",
+    "complexity": "constraint + calculus",
+    "count": 50
+  },
+  {
+    "level": 79,
+    "topic": "Integral probability/continuous model",
+    "band": "Calculus for Decisions",
+    "complexity": "accumulated risk",
+    "count": 50
+  },
+  {
+    "level": 80,
+    "topic": "Calculus synthesis",
+    "band": "Calculus for Decisions",
+    "complexity": "derivative + integral + interpretation",
+    "count": 50
+  },
+  {
+    "level": 81,
+    "topic": "Differential equations",
+    "band": "Numerical & Dynamic Models",
+    "complexity": "dynamic change equation",
+    "count": 50
+  },
+  {
+    "level": 82,
+    "topic": "First-order dynamic systems",
+    "band": "Numerical & Dynamic Models",
+    "complexity": "state evolution",
+    "count": 50
+  },
+  {
+    "level": 83,
+    "topic": "Numerical root finding",
+    "band": "Numerical & Dynamic Models",
+    "complexity": "equation tanpa closed form mudah",
+    "count": 50
+  },
+  {
+    "level": 84,
+    "topic": "Numerical integration",
+    "band": "Numerical & Dynamic Models",
+    "complexity": "discrete samples to total",
+    "count": 50
+  },
+  {
+    "level": 85,
+    "topic": "Interpolation",
+    "band": "Numerical & Dynamic Models",
+    "complexity": "estimate between measurements",
+    "count": 50
+  },
+  {
+    "level": 86,
+    "topic": "Iterative methods",
+    "band": "Numerical & Dynamic Models",
+    "complexity": "convergence and tolerance",
+    "count": 50
+  },
+  {
+    "level": 87,
+    "topic": "Dynamic simulation",
+    "band": "Numerical & Dynamic Models",
+    "complexity": "time-step model",
+    "count": 50
+  },
+  {
+    "level": 88,
+    "topic": "Stochastic simulation",
+    "band": "Numerical & Dynamic Models",
+    "complexity": "uncertain repeated process",
+    "count": 50
+  },
+  {
+    "level": 89,
+    "topic": "Model validation",
+    "band": "Numerical & Dynamic Models",
+    "complexity": "compare model vs observed",
+    "count": 50
+  },
+  {
+    "level": 90,
+    "topic": "Numerical model selection",
+    "band": "Numerical & Dynamic Models",
+    "complexity": "accuracy-cost trade-off",
+    "count": 50
+  },
+  {
+    "level": 91,
+    "topic": "Open-ended model formulation",
+    "band": "Advanced Modeling",
+    "complexity": "ambiguous objective, user defines assumptions",
+    "count": 50
+  },
+  {
+    "level": 92,
+    "topic": "Multi-objective optimization",
+    "band": "Advanced Modeling",
+    "complexity": "cost-service-risk trade-off",
+    "count": 50
+  },
+  {
+    "level": 93,
+    "topic": "Robust planning",
+    "band": "Advanced Modeling",
+    "complexity": "solution under parameter ranges",
+    "count": 50
+  },
+  {
+    "level": 94,
+    "topic": "Advanced sensitivity",
+    "band": "Advanced Modeling",
+    "complexity": "local/global parameter influence",
+    "count": 50
+  },
+  {
+    "level": 95,
+    "topic": "Uncertainty propagation",
+    "band": "Advanced Modeling",
+    "complexity": "input uncertainty to output",
+    "count": 50
+  },
+  {
+    "level": 96,
+    "topic": "Hybrid discrete-continuous model",
+    "band": "Advanced Modeling",
+    "complexity": "integer + continuous decisions",
+    "count": 50
+  },
+  {
+    "level": 97,
+    "topic": "Simulation optimization",
+    "band": "Advanced Modeling",
+    "complexity": "search over simulated outcomes",
+    "count": 50
+  },
+  {
+    "level": 98,
+    "topic": "Policy scenario modeling",
+    "band": "Advanced Modeling",
+    "complexity": "stakeholder constraints + uncertainty",
+    "count": 50
+  },
+  {
+    "level": 99,
+    "topic": "Integrated mathematical modeling",
+    "band": "Advanced Modeling",
+    "complexity": "multiple valid models, justify choice",
+    "count": 50
+  },
+  {
+    "level": 100,
+    "topic": "Capstone modeling",
+    "band": "Advanced Modeling",
+    "complexity": "open-ended, multi-constraint, uncertainty, trade-off, sensitivity, decision justification",
+    "count": 50
+  }
+]
