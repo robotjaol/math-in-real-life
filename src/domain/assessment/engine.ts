@@ -44,7 +44,7 @@ export function validateInteraction(i: InteractionSpec, response: ResponseValue 
   } else if (v.kind === "choice") score = response.text === v.value ? 100 : 0;
   else if (v.kind === "set") { const chosen = new Set(response.selections ?? []); score = Math.max(0, (v.values.filter(x => chosen.has(x)).length - [...chosen].filter(x => !v.values.includes(x)).length) / Math.max(1, v.values.length) * 100); }
   else if (v.kind === "ordered" || v.kind === "equation") {
-    const expected = v.kind === "ordered" ? v.values : v.tokens;
+    const expected = v.kind === "equation" ? v.tokens : v.values;
     score = expected.length === response.selections?.length && expected.every((x, idx) => x === response.selections?.[idx]) ? 100 : 0;
   }
   return { ...base, score, message: score === 100 ? "Langkah ini benar." : "Periksa kembali hubungan, data, satuan, atau urutan pada langkah ini. Anda dapat merevisi sebelum membuka pembahasan.", ...(score < 100 ? { errorTag } : {}) };

@@ -1,0 +1,14 @@
+import fs from "node:fs";
+import path from "node:path";
+import {createHash} from "node:crypto";
+const files=[];
+function walk(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,entry.name);if(entry.isDirectory())walk(p);else files.push(p.replaceAll("\\","/"));}}walk("out");
+const assets=files.filter(f=>!f.includes("/content/")&&!f.endsWith(".map")&&!f.endsWith("sw.js")).map(f=>"/"+f.slice(4));
+assets.push("/content/index.json");
+const version=createHash("sha256").update(files.filter(f=>f.endsWith(".js")||f.endsWith(".json")).map(f=>fs.readFileSync(f)).reduce((a,b)=>Buffer.concat([a,b]),Buffer.alloc(0))).digest("hex").slice(0,12);
+fs.writeFileSync("out/sw.js",`const CACHE='modelmath-${version}';
+const ASSETS=${JSON.stringify(assets)};
+self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(CACHE);await cache.addAll(ASSETS);await self.skipWaiting();})()));
+self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const name of await caches.keys())if(name.startsWith('modelmath-')&&name!==CACHE)await caches.delete(name);await self.clients.claim();})()));
+self.addEventListener('fetch',event=>{const url=new URL(event.request.url);if(event.request.method!=='GET'||url.origin!==self.location.origin)return;event.respondWith((async()=>{const cache=await caches.open(CACHE);const isDocument=event.request.mode==='navigate';const key=isDocument?url.pathname.replace(/\\/?$/,'/')+'index.html':event.request;const found=await cache.match(key);if(found)return found;try{const response=await fetch(event.request);if(response.ok){await cache.put(key,response.clone());}return response;}catch{if(isDocument)return await cache.match('/404.html')||new Response('Konten belum tersimpan offline',{status:503});return new Response('Konten belum tersimpan offline',{status:503});}})());});`);
+console.log(`Offline worker built: ${assets.length} shell assets; question levels cached on demand.`);
