@@ -10,6 +10,7 @@ import { dailyId, shuffled } from "@/domain/generation/prng";
 import { formatNumber } from "@/lib/utils";
 import { saveProgress } from "@/persistence/storage";
 import curriculum from "@/data/curriculum.json";
+import { selectPractice } from "@/domain/generation/selection";
 export function PracticePage({ assessment = false }: { assessment?: boolean }) {
   const app = useApp(), { data, error } = useIndex(), router = useRouter();
   const [size, setSize] = useState(5), [domain, setDomain] = useState(""), [topic, setTopic] = useState(""), [difficulty, setDifficulty] = useState(""), [busy, setBusy] = useState(false), [message, setMessage] = useState("");
@@ -22,11 +23,7 @@ export function PracticePage({ assessment = false }: { assessment?: boolean }) {
     if (!app.ready || !data.length || busy) return; setBusy(true); setMessage("");
     try {
       const id = crypto.randomUUID();
-      const mistakes = new Set(app.mistakes.filter(m => !m.resolved).map(m => m.questionId));
-      const shuffledRows = shuffled(eligible, id);
-      // Stable priority: weak/review questions first, then unseen, then completed.
-      const rank = (qid: string) => mistakes.has(qid) ? 0 : app.progress.completed.includes(qid) ? 2 : 1;
-      const queue = assessment ? ["L041-Q01"] : shuffledRows.sort((a, b) => rank(a.id) - rank(b.id)).slice(0, size).map(q => q.id);
+      const queue = assessment ? ["L041-Q01"] : selectPractice(eligible, app.attempts, app.mistakes, id, size);
       if (!queue.length) throw new Error("Belum ada soal terbuka untuk filter ini. Ubah filter atau lakukan asesmen.");
       const session = { schemaVersion: 1 as const, id, mode: assessment ? "assessment" as const : "practice" as const, queue, index: 0, attemptIds: [], size: assessment ? 20 : Math.min(size, queue.length), band: 4, streak: 0 };
       await app.setSession(session); router.push(`/question/?id=${queue[0]}`);

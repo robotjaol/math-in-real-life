@@ -1,0 +1,9 @@
+import { fireEvent, render, screen } from "@testing-library/react";
+import { describe, expect, it, vi } from "vitest";
+import { Interaction } from "@/components/interaction/interaction";
+import type { InteractionSpec } from "@/domain/question/types";
+describe("interaction controls", () => {
+  it("renders numeric input without the solution key", () => { const onChange = vi.fn(); const spec: InteractionSpec = { id: "n", type: "Numeric Answer", phase: "calculation", prompt: "Rate minimum", validator: { kind: "numeric", value: 123456, unit: "unit/jam", tolerance: .01 }, weight: 1, explanation: "answer = 123456" }; render(<Interaction spec={spec} onChange={onChange} />); expect(screen.queryByText(/123456/)).not.toBeInTheDocument(); fireEvent.change(screen.getByLabelText("Rate minimum"), { target: { value: "1,5" } }); expect(onChange).toHaveBeenCalledWith({ text: "1,5" }); });
+  it("supports classification with keyboard-native checkboxes", () => { const onChange = vi.fn(); const spec: InteractionSpec = { id: "s", type: "Data Classification", phase: "formulation", prompt: "Data relevan", options: ["Demand", "Warna"], validator: { kind: "set", values: ["Demand"] }, weight: 1, explanation: "" }; render(<Interaction spec={spec} onChange={onChange} />); fireEvent.click(screen.getByLabelText("Demand")); expect(onChange).toHaveBeenCalledWith({ selections: ["Demand"] }); });
+  it("connects numeric errors to the field", () => { const spec: InteractionSpec = { id: "n", type: "Numeric Answer", phase: "calculation", prompt: "Nilai", validator: { kind: "numeric", value: 2, unit: "m", tolerance: .01 }, weight: 1, explanation: "" }; render(<Interaction spec={spec} onChange={() => {}} diagnostic={{ interactionId: "n", phase: "calculation", score: 0, automatic: true, message: "Periksa satuan." }} />); expect(screen.getByLabelText("Nilai")).toHaveAttribute("aria-invalid", "true"); expect(screen.getByRole("status")).toHaveTextContent("Periksa satuan."); });
+});
